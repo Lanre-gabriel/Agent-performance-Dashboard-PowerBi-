@@ -6,14 +6,14 @@ This project focuses on building an **Agent Performance Dashboard** for an IT su
 ---
 
 ## 📑 Table of Contents
-1. [Project Overview](#project-overview)  
-2. [Business Problem](#business-problem)  
-3. [Dataset & Data Model](#dataset--data-model)  
-4. [Dashboard & Key Metrics](#dashboard--key-metrics)  
-5. [Agent Performance Comparison Summary](#agent-performance-comparison-summary)  
-6. [Key Insights](#Key-insights)  
-7. [Recommendations](#recommendations)  
-8. [Limitations](#limitations)  
+1. [Project Overview](#Project-Overview)  
+2. [Business Problem](#Business-Problem)  
+3. [Dataset & Data Model](#Dataset--Data-Model)  
+4. [Dashboard & Key Metrics](#Dashboard--Key-Metrics)  
+5. [Agent Performance Comparison Summary](#Agent-Performance-Comparison-Summary)  
+6. [Key Insights](#Key-Insights)  
+7. [Recommendations](#Recommendations)  
+8. [Limitations](#Limitations)  
 
 ---
 
