@@ -1,5 +1,8 @@
 # Agent-performance-Dashboard-PowerBi-
 
+This project focuses on building an **Agent Performance Dashboard** for an IT support environment using **Power BI**.
+
+![Dashboard](Agents_Dashboard.png)
 ---
 
 ## 📑 Table of Contents
@@ -8,16 +11,13 @@
 3. [Dataset & Data Model](#dataset--data-model)  
 4. [Dashboard & Key Metrics](#dashboard--key-metrics)  
 5. [Agent Performance Comparison Summary](#agent-performance-comparison-summary)  
-6. [Key Insights](#key-insights)  
+6. [Key Insights](#Key-insights)  
 7. [Recommendations](#recommendations)  
-8. [Limitations & Future Improvements](#limitations--future-improvements)  
-9. [Final Takeaway](#final-takeaway)  
+8. [Limitations](#limitations)  
 
 ---
 
-## 📌 Project Overview
-
-This project focuses on building an **Agent Performance Dashboard** for an IT support environment using **Power BI**.
+##  Project Overview
 
 The dashboard provides a comprehensive view of agent performance across key operational and customer-centric metrics such as ticket handling efficiency, SLA compliance, and customer satisfaction.
 
@@ -70,6 +70,12 @@ The dataset is structured using a **star schema** consisting of four tables:
 
 The dashboard presents both **individual agent profiles** and **overall performance trends**.
 
+![Dashboard](Agent1.PNG)  ![Dashboard](Agent4.PNG)
+![Dashboard](Agent2.PNG)  ![Dashboard](Agent5.PNG)
+![Dashboard](Agent3.PNG)  ![Dashboard](Agent6.PNG)
+
+
+
 **Key KPIs**
 - Total Tickets Handled  
 - SLA Compliance (%)  
@@ -103,7 +109,7 @@ The dashboard presents both **individual agent profiles** and **overall performa
 **1. High Workload Impacts Service Quality**
 
 Agents handling the highest number of tickets do not necessarily deliver the best outcomes.  
-James Miller, despite handling the most tickets, records the lowest CSAT and resolution rate.
+**James Miller**, despite handling the most tickets, records the lowest CSAT and resolution rate.
 
 **Insight:**  
 High workload may negatively impact service quality.
@@ -112,7 +118,7 @@ High workload may negatively impact service quality.
 
 **2. Balanced Performance is Key**
 
-Chinedu Obi and David Thompson demonstrate strong all-round performance:
+**Chinedu Obi** and **David Thompson** demonstrate strong all-round performance:
 - Good ticket volume  
 - High SLA compliance  
 - Strong CSAT  
