@@ -50,16 +50,16 @@ This project transforms raw ticket and feedback data into actionable insights.
 
 The dataset is structured using a **star schema** consisting of four tables:
 
-### **Fact Table**
+**Fact Table**
 - **Ticket Table**  
   Contains all support requests and serves as the core dataset.
 
-### **Dimension Tables**
+**Dimension Tables**
 - **Agent Table** → Agent details (ID, Name, Role, Image)  
 - **Feedback Table** → Customer satisfaction (CSAT, comments)  
 - **Date Table** → Enables time-based analysis  
 
-### **Model Design**
+**Model Design**
 - One-to-many relationships from dimensions to the Ticket table  
 - A dedicated **Measures Table** for DAX calculations  
 - Optimized for scalability and clean reporting  
@@ -70,14 +70,14 @@ The dataset is structured using a **star schema** consisting of four tables:
 
 The dashboard presents both **individual agent profiles** and **overall performance trends**.
 
-### **Key KPIs**
+**Key KPIs**
 - Total Tickets Handled  
 - SLA Compliance (%)  
 - Average Resolution Time  
 - Resolution Rate  
 - Average CSAT Score  
 
-### **Dashboard Features**
+ **Dashboard Features**
 - Agent-level performance breakdown  
 - Ticket distribution by channel and issue type  
 - Priority-based ticket analysis  
@@ -100,7 +100,8 @@ The dashboard presents both **individual agent profiles** and **overall performa
 
 ## 🔍 Key Insights
 
-### 1. High Workload Impacts Service Quality
+**1. High Workload Impacts Service Quality**
+
 Agents handling the highest number of tickets do not necessarily deliver the best outcomes.  
 James Miller, despite handling the most tickets, records the lowest CSAT and resolution rate.
 
@@ -109,7 +110,8 @@ High workload may negatively impact service quality.
 
 ---
 
-### 2. Balanced Performance is Key
+**2. Balanced Performance is Key**
+
 Chinedu Obi and David Thompson demonstrate strong all-round performance:
 - Good ticket volume  
 - High SLA compliance  
@@ -120,7 +122,8 @@ Balanced agents serve as ideal performance benchmarks.
 
 ---
 
-### 3. Faster Resolution Improves Customer Satisfaction
+**3. Faster Resolution Improves Customer Satisfaction**
+
 Agents with faster resolution times tend to achieve higher CSAT scores.
 
 **Insight:**  
@@ -128,7 +131,8 @@ There is a direct relationship between resolution speed and customer satisfactio
 
 ---
 
-### 4. Low SLA Compliance Across All Agents
+**4. Low SLA Compliance Across All Agents**
+
 SLA compliance ranges between 15%–19% across all agents.
 
 **Insight:**  
@@ -136,7 +140,8 @@ This indicates a system-wide issue rather than individual underperformance.
 
 ---
 
-### 5. Top Performer Identified
+**5. Top Performer Identified**
+
 David Thompson stands out with:
 - Highest CSAT  
 - Highest SLA compliance  
@@ -147,7 +152,8 @@ Represents the most efficient and customer-focused agent.
 
 ---
 
-### 6. Efficiency vs Volume Trade-off
+**6. Efficiency vs Volume Trade-off**
+
 A clear pattern exists:
 - Higher ticket volume → lower quality metrics  
 - Lower ticket volume → better efficiency  
@@ -160,7 +166,8 @@ Workload distribution needs optimization.
 ## 💡 Recommendations
 
 - **Redistribute Workload**  
-  Balance ticket assignments across agents  
+
+Balance ticket assignments across agents  
 
 - **Set Performance Benchmarks**  
   Use top performers as standards  
@@ -178,25 +185,10 @@ Workload distribution needs optimization.
 
 ## ⚠️ Limitations & Future Improvements
 
-### Limitations
+ **Limitations**
 - Limited number of agents  
 - CSAT depends on customer participation  
 - No real-time data integration  
-
-### Future Improvements
-- Real-time dashboard updates  
-- Predictive analytics for ticket trends  
-- Sentiment analysis from customer comments  
-- Centralized comparison dashboard  
-
 ---
 
-## 🚀 Final Takeaway
-
-This project goes beyond dashboard creation by:
-- Structuring data using a star schema model  
-- Building an interactive performance monitoring tool  
-- Delivering actionable insights and recommendations  
-
-It demonstrates the ability to:
-> Turn raw data into meaningful business decisions — the core of data analysis.
+## About me 
